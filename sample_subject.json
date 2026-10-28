@@ -1,0 +1,10 @@
+{
+  "full_name": "Jordan Sample",
+  "emails": ["jordan.sample@example.com", "j.sample@example.org"],
+  "phones": ["555-0142"],
+  "usernames": ["jordansample88"],
+  "city": "Springfield",
+  "state": "IL",
+  "consent_attested": true,
+  "consent_ref": "DEMO-0001"
+}
