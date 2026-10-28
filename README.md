@@ -11,7 +11,17 @@ breach exposure, data broker listings, and social/search exposure.
   - `HIBP_API_KEY` for Have I Been Pwned (breaches)
   - `BRAVE_API_KEY` for Brave Search (social and search exposure)
 
-## Workflow
+## Quick start
+
+```bash
+python3 cli.py run --demo        # try it on fictional data
+python3 cli.py run               # prompts for the subject, then scan, review, report
+python3 cli.py run subject_x.json # reuse a saved subject file
+```
+
+`run` does everything below in one go and opens the PDF when finished.
+
+## Step-by-step workflow
 
 ```bash
 # 1. Scan (use --demo for fictional sample data, no keys needed)
